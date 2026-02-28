@@ -32,4 +32,4 @@ RUN chmod +x entrypoint.sh
 USER arti
 
 ENTRYPOINT ["./entrypoint.sh"]
-CMD ["arti", "proxy"]
+CMD ["proxy"]
